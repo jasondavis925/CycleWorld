@@ -37,6 +37,7 @@ namespace CycleWorld.Data
         public DbSet<Shop> Shops { get; set; }
         public new DbSet<User> Users { get; set; }
         public DbSet<Bike> Bikes { get; set; }
+        public DbSet<Transaction> Transactions { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder
